@@ -6,7 +6,7 @@ from data_retrieve import display_page  # importing function from data_retrieve.
 conn = mysql.connector.connect(
     host='localhost',
     user='root',
-    password='Poot',
+    password='****',
     database='address_book'
 )
 
@@ -37,7 +37,7 @@ def submit():
     conn = mysql.connector.connect(
         host='localhost',
         user='root',
-        password='Poot',
+        password='****',
         database='address_book'
     )
     cursor = conn.cursor()
