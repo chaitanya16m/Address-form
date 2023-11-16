@@ -17,7 +17,7 @@ def display_page():
     conn = mysql.connector.connect(
         host="localhost",  # server name
         user="root",  # username
-        password="Poot",  # password
+        password="****",  # password
         database="address_book"  # database name
     )
     cursor = conn.cursor()
